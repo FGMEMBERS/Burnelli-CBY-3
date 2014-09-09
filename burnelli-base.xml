@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <author>BARANGER Emmanuel (3D)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+
+    <fuel-fraction>0.8</fuel-fraction>
+
+    <startup>
+      <splash-texture>Aircraft/Burnelli-CBY-3/burnelli-splash.png</splash-texture>
+    </startup>
+
+    <model>
+      <path>Aircraft/Burnelli-CBY-3/Models/burnelli.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <submodels>
+      <serviceable type="bool">true</serviceable>
+      <path>Aircraft/Burnelli-CBY-3/Models/weapons/release.xml</path>
+    </submodels>
+
+    <sound>
+      <path>Aircraft/Burnelli-CBY-3/Sounds/burnelli-sound.xml</path>
+    </sound>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int" n="0">0</int>
+        <int type="int" n="1">0</int>
+        <int type="int" n="2">0</int>
+        <int type="int" n="3">0</int>
+        <int type="int" n="4">0</int>
+        <int type="int" n="5">0</int>
+      </generic>
+    </multiplay>
+
+    <flaps>
+      <setting>0.000</setting>
+      <setting>0.25</setting>
+      <setting>0.50</setting>
+      <setting>0.75</setting>
+      <setting>1.000</setting>
+    </flaps>
+
+    <help>
+      <title>Burnelli CBY 3</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close bimb bay door</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/burnelli-menu.xml"/>
+
+  </sim>
+
+  <controls>
+    <engines>
+      <engine n="0">
+	<boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="1">
+	<boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="2">
+	<boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="3">
+	<boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+    </engines>
+  </controls>
+
+  <engines>
+    <engine n="0">
+      <engine-num type="int">0</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="1">
+      <engine-num type="int">1</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="2">
+      <engine-num type="int">2</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="3">
+      <engine-num type="int">3</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+  </engines>
+
+  <input>
+    <keyboard include="Nasal/burnelli-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <burnelli>
+      <file>Aircraft/Burnelli-CBY-3/Nasal/doors.nas</file>
+      <file>Aircraft/Burnelli-CBY-3/Nasal/liveries.nas</file>
+    </burnelli>
+  </nasal>
+
+</PropertyList>
+

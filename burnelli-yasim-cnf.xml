@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+Burnelli CBY 3
+May  2008 BARANGER Emmanuel
+June 2010 BARANGER Emmanuel
+************************************************************************
+-->
+
+<PropertyList include="burnelli-base.xml">
+
+  <sim>
+
+    <description>Burnelli CBY 3 (YASim)</description>
+    <flight-model>yasim</flight-model>
+    <aero>burnelli-yasim</aero>
+
+  </sim>
+  
+</PropertyList>
+
