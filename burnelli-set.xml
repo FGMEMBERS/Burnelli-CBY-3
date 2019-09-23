@@ -6,6 +6,20 @@
   <sim>
     <description>Burnelli CBY 3 </description>
     <author>BARANGER Emmanuel</author>
+
+    <tags>
+	<tag>transport</tag>
+	<tag>1940s</tag>
+	<tag>1950s</tag>
+	<tag>1960s</tag>
+	<tag>experimental</tag>
+	<tag>tail-dragger</tag>
+	<tag>retractable-gear</tag>
+	<tag>propeller</tag>
+	<tag>piston</tag>
+	<tag>radial</tag>
+	<tag>twin-engine</tag>
+    </tags>
   </sim>
 
 </PropertyList>
